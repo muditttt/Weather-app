@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetWeather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Weather App</h1>
+            <p>Find out the current weather conditions for any location!</p>
+        </header>
+        <main>
+            <div class="input-container">
+                <input type="text" id="location" placeholder="Enter a location (e.g., London)" />
+                <button id="getWeather">Get Weather</button>
+            </div>
+            <div id="result" class="weather-result">
+                <!-- Weather details will be displayed here -->
+            </div>
+        </main>
+        <footer>
+            <p>Powered by <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
